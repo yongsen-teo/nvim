@@ -1,0 +1,52 @@
+return {}
+--   "catppuccin/nvim",
+--   name = "catppuccin",
+--   priority = 1000,
+--   config = function()
+--     require("catppuccin").setup({
+--       flavour = "mocha", -- or "mocha", "frappe", "latte"
+--       -- color_overrides = {
+--       --   macchiato = {
+--       --     -- Default macchiato base is #24273a
+--       --     -- Default mocha base is #1e1e2e
+--       --     -- This value is in between both
+--       --     base = "#212236",
+--       --     -- Adjust related background colors to maintain harmony
+--       --     mantle = "#1b1c2e",
+--       --     crust = "#161726",
+--       --   },
+--       -- },
+--       -- background = { -- :h background
+--       --   dark = "macchiato", -- or "macchiato", "espresso", "doppio"
+--       -- },
+--       term_colors = false,
+--       transparent_background = true,
+--       integrations = {
+--         treesitter = true,
+--         native_lsp = {
+--           enabled = true,
+--           virtual_text = {
+--             errors = { "italic" },
+--             hints = { "italic" },
+--             warnings = { "italic" },
+--             information = { "italic" },
+--             ok = { "italic" },
+--           },
+--           underlines = {
+--             errors = { "underline" },
+--             hints = { "underline" },
+--             warnings = { "underline" },
+--             information = { "underline" },
+--             ok = { "underline" },
+--           },
+--           inlay_hints = {
+--             background = true,
+--           },
+--         },
+--         telescope = true,
+--         cmp = true,
+--       },
+--     })
+--     vim.cmd.colorscheme("catppuccin")
+--   end,
+-- }
